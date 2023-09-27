@@ -1,3 +1,4 @@
+
 $(function() {
 
     $('.btn-link[aria-expanded="true"]').closest('.accordion-item').addClass('active');
