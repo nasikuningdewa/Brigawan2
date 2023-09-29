@@ -51,10 +51,10 @@
 	          <p class="w-100 text-center">&mdash; Or Sign In With &mdash;</p>
 	          <div class="social d-flex text-center">
 	            <div id="gSignInWrapper">
-					<div id="customBtn" class="customGPlusSignIn">
+					<a href="{{ url('auth/google') }}" id="customBtn" class="customGPlusSignIn">
 					  <span class="icon"></span>
 					  <span class="buttonText">Google</span>
-					</div>
+					</a>
 				  </div>
 				  <div id="name"></div>
 	          </div>
